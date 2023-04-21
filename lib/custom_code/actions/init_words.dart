@@ -14,7 +14,7 @@ initWords() {
     'Air',
     'Alien',
     'Alps',
-    'Amazon',
+    'HOLAAA',
     'Ambulance',
     'America',
     'Angel',
