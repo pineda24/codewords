@@ -82,18 +82,14 @@ class _CreateGameWidgetState extends State<CreateGameWidget> {
             ),
             FFButtonWidget(
               onPressed: () async {
-                print("HOLAAAA");
                 final roomCreateData = createRoomRecordData(
                   code: functions.generateRoomCode(),
                   host: textController.text,
                 );
-                print("JAJAJAJA");
                 var roomRecordReference = RoomRecord.collection.doc();
-                print("JAJAJAJA");
                 await roomRecordReference.set(roomCreateData);
                 roomDetails = RoomRecord.getDocumentFromData(
                     roomCreateData, roomRecordReference);
-                print("JAJAJAJA");
                 await Navigator.pushAndRemoveUntil(
                   context,
                   MaterialPageRoute(
