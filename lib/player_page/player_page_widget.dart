@@ -111,7 +111,7 @@ class _PlayerPageWidgetState extends State<PlayerPageWidget> {
               backgroundColor: FlutterFlowTheme.of(context).primaryColor,
               elevation: 8,
               label: Text(
-                'Join game',
+                'Unete al juego',
                 style: FlutterFlowTheme.of(context).bodyText1.override(
                       fontFamily: 'Poppins',
                       color: FlutterFlowTheme.of(context).primaryBtnText,
@@ -138,7 +138,7 @@ class _PlayerPageWidgetState extends State<PlayerPageWidget> {
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           Text(
-                            'Player',
+                            'Jugador',
                             style:
                                 FlutterFlowTheme.of(context).bodyText1.override(
                                       fontFamily: 'Poppins',
@@ -161,7 +161,7 @@ class _PlayerPageWidgetState extends State<PlayerPageWidget> {
                                   () => FFAppState().hasJoinedTeam = false);
                             },
                             child: Text(
-                              'Leave game',
+                              'Dejar juego',
                               style: FlutterFlowTheme.of(context)
                                   .bodyText1
                                   .override(
@@ -179,7 +179,7 @@ class _PlayerPageWidgetState extends State<PlayerPageWidget> {
                         mainAxisSize: MainAxisSize.max,
                         children: [
                           Text(
-                            'Your name: ',
+                            'Tu nombre: ',
                             style:
                                 FlutterFlowTheme.of(context).bodyText1.override(
                                       fontFamily: 'Poppins',
@@ -206,7 +206,7 @@ class _PlayerPageWidgetState extends State<PlayerPageWidget> {
                           mainAxisSize: MainAxisSize.max,
                           children: [
                             Text(
-                              'Room code: ',
+                              'Codigo sala: ',
                               style: FlutterFlowTheme.of(context)
                                   .bodyText1
                                   .override(
@@ -233,7 +233,7 @@ class _PlayerPageWidgetState extends State<PlayerPageWidget> {
                       Padding(
                         padding: EdgeInsetsDirectional.fromSTEB(0, 0, 0, 16),
                         child: Text(
-                          'Share this code with your friends to let them join this session.',
+                          'Comparte este código con tus amigos para que puedan unirse a esta sesión.',
                           style:
                               FlutterFlowTheme.of(context).bodyText1.override(
                                     fontFamily: 'Poppins',
@@ -279,7 +279,7 @@ class _PlayerPageWidgetState extends State<PlayerPageWidget> {
 
                                       setState(() {});
                                     },
-                                    text: 'Join Red team',
+                                    text: 'Únete al equipo rojo',
                                     options: FFButtonOptions(
                                       width: 130,
                                       height: 50,
@@ -393,7 +393,7 @@ class _PlayerPageWidgetState extends State<PlayerPageWidget> {
 
                                       setState(() {});
                                     },
-                                    text: 'become spy master',
+                                    text: 'Convertirse en un spia maestro',
                                     options: FFButtonOptions(
                                       width: 130,
                                       height: 30,
@@ -449,7 +449,7 @@ class _PlayerPageWidgetState extends State<PlayerPageWidget> {
 
                                       setState(() {});
                                     },
-                                    text: 'become spy master',
+                                    text: 'Convertirse en un spia maestro',
                                     options: FFButtonOptions(
                                       width: 130,
                                       height: 30,
@@ -484,7 +484,7 @@ class _PlayerPageWidgetState extends State<PlayerPageWidget> {
                       Padding(
                         padding: EdgeInsetsDirectional.fromSTEB(0, 16, 0, 16),
                         child: Text(
-                          'Blue team',
+                          'Equipo azul',
                           style: FlutterFlowTheme.of(context)
                               .bodyText1
                               .override(
@@ -566,7 +566,7 @@ class _PlayerPageWidgetState extends State<PlayerPageWidget> {
                       Padding(
                         padding: EdgeInsetsDirectional.fromSTEB(0, 16, 0, 16),
                         child: Text(
-                          'Red team',
+                          'Equipo rojo',
                           style: FlutterFlowTheme.of(context)
                               .bodyText1
                               .override(
