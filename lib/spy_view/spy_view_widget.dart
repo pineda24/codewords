@@ -100,7 +100,7 @@ class _SpyViewWidgetState extends State<SpyViewWidget> {
                                               EdgeInsetsDirectional.fromSTEB(
                                                   0, 0, 0, 24),
                                           child: Text(
-                                            'Your name: ',
+                                            'Nombre: ',
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyText1
                                                 .override(
@@ -140,7 +140,7 @@ class _SpyViewWidgetState extends State<SpyViewWidget> {
                                       padding: EdgeInsetsDirectional.fromSTEB(
                                           0, 0, 0, 24),
                                       child: Text(
-                                        'Code: ',
+                                        'Codigo: ',
                                         style: FlutterFlowTheme.of(context)
                                             .bodyText1
                                             .override(
@@ -191,7 +191,7 @@ class _SpyViewWidgetState extends State<SpyViewWidget> {
                                     mainAxisAlignment: MainAxisAlignment.center,
                                     children: [
                                       Text(
-                                        'SPY MASTER VIEW',
+                                        'VISTA MAESTRA ESPÍA',
                                         style: FlutterFlowTheme.of(context)
                                             .bodyText1
                                             .override(
@@ -216,7 +216,7 @@ class _SpyViewWidgetState extends State<SpyViewWidget> {
                               children: [
                                 Expanded(
                                   child: Text(
-                                    'Words Left',
+                                    'Palabras restantes',
                                     style: FlutterFlowTheme.of(context)
                                         .bodyText1
                                         .override(
@@ -280,7 +280,7 @@ class _SpyViewWidgetState extends State<SpyViewWidget> {
                                     MainAxisAlignment.spaceBetween,
                                 children: [
                                   Text(
-                                    'Red team is guessing...',
+                                    'El equipo rojo está adivinando...',
                                     style: FlutterFlowTheme.of(context)
                                         .bodyText1
                                         .override(
@@ -303,7 +303,7 @@ class _SpyViewWidgetState extends State<SpyViewWidget> {
                                     MainAxisAlignment.spaceBetween,
                                 children: [
                                   Text(
-                                    'Blue team is guessing...',
+                                    'El equipo azul está adivinando...',
                                     style: FlutterFlowTheme.of(context)
                                         .bodyText1
                                         .override(
@@ -653,7 +653,7 @@ class _SpyViewWidgetState extends State<SpyViewWidget> {
                                     size: 90,
                                   ),
                                   Text(
-                                    'WINNER',
+                                    'GANADOR',
                                     style: FlutterFlowTheme.of(context)
                                         .bodyText1
                                         .override(
@@ -664,7 +664,7 @@ class _SpyViewWidgetState extends State<SpyViewWidget> {
                                         ),
                                   ),
                                   Text(
-                                    'Red Team',
+                                    'Equipo Rojo',
                                     style: FlutterFlowTheme.of(context)
                                         .bodyText1
                                         .override(
@@ -700,7 +700,7 @@ class _SpyViewWidgetState extends State<SpyViewWidget> {
                                           (r) => false,
                                         );
                                       },
-                                      text: 'Start New Game',
+                                      text: 'Empezar una nueva partida',
                                       options: FFButtonOptions(
                                         width: 200,
                                         height: 50,
@@ -759,7 +759,7 @@ class _SpyViewWidgetState extends State<SpyViewWidget> {
                                     size: 90,
                                   ),
                                   Text(
-                                    'WINNER',
+                                    'GANADOR',
                                     style: FlutterFlowTheme.of(context)
                                         .bodyText1
                                         .override(
@@ -770,7 +770,7 @@ class _SpyViewWidgetState extends State<SpyViewWidget> {
                                         ),
                                   ),
                                   Text(
-                                    'Blue Team',
+                                    'Equipo Azul',
                                     style: FlutterFlowTheme.of(context)
                                         .bodyText1
                                         .override(
@@ -806,7 +806,7 @@ class _SpyViewWidgetState extends State<SpyViewWidget> {
                                           (r) => false,
                                         );
                                       },
-                                      text: 'Start New Game',
+                                      text: 'Empezar una nueva partida',
                                       options: FFButtonOptions(
                                         width: 200,
                                         height: 50,

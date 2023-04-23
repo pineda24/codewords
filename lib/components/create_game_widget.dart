@@ -43,8 +43,8 @@ class _CreateGameWidgetState extends State<CreateGameWidget> {
                 controller: textController,
                 obscureText: false,
                 decoration: InputDecoration(
-                  labelText: 'Name',
-                  hintText: 'Enter your name',
+                  labelText: 'Nombre',
+                  hintText: 'Introduzca su nombre',
                   hintStyle: FlutterFlowTheme.of(context).bodyText1.override(
                         fontFamily: 'Poppins',
                         color: Color(0x7F000000),
@@ -102,7 +102,7 @@ class _CreateGameWidgetState extends State<CreateGameWidget> {
 
                 setState(() {});
               },
-              text: 'Create',
+              text: 'Crear',
               options: FFButtonOptions(
                 width: double.infinity,
                 height: 55,

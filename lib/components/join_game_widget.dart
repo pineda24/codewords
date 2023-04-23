@@ -41,8 +41,8 @@ class _JoinGameWidgetState extends State<JoinGameWidget> {
                 controller: textController1,
                 obscureText: false,
                 decoration: InputDecoration(
-                  labelText: 'Name',
-                  hintText: 'Enter your name',
+                  labelText: 'Nombre',
+                  hintText: 'Introduzca su nombre',
                   hintStyle: FlutterFlowTheme.of(context).bodyText1.override(
                         fontFamily: 'Poppins',
                         color: Color(0x80000000),
@@ -84,8 +84,8 @@ class _JoinGameWidgetState extends State<JoinGameWidget> {
                 controller: textController2,
                 obscureText: false,
                 decoration: InputDecoration(
-                  labelText: 'Room code',
-                  hintText: 'Enter the room code',
+                  labelText: 'Código de la sala',
+                  hintText: 'Introduce el código de la sala',
                   hintStyle: FlutterFlowTheme.of(context).bodyText1.override(
                         fontFamily: 'Poppins',
                         color: Color(0x80000000),
@@ -135,7 +135,7 @@ class _JoinGameWidgetState extends State<JoinGameWidget> {
                   (r) => false,
                 );
               },
-              text: 'Join',
+              text: 'Unete',
               options: FFButtonOptions(
                 width: double.infinity,
                 height: 55,

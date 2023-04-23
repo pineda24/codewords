@@ -130,7 +130,7 @@ class _HostPageWidgetState extends State<HostPageWidget> {
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       Text(
-                        'HOST',
+                        'ANFITRIÓN',
                         style: FlutterFlowTheme.of(context).bodyText1.override(
                               fontFamily: 'Poppins',
                               fontSize: 24,
@@ -163,7 +163,7 @@ class _HostPageWidgetState extends State<HostPageWidget> {
                     mainAxisSize: MainAxisSize.max,
                     children: [
                       Text(
-                        'Your name: ',
+                        'Su nombre: ',
                         style: FlutterFlowTheme.of(context).bodyText1.override(
                               fontFamily: 'Poppins',
                               fontSize: 14,
@@ -188,7 +188,7 @@ class _HostPageWidgetState extends State<HostPageWidget> {
                       mainAxisSize: MainAxisSize.max,
                       children: [
                         Text(
-                          'Joinning code: ',
+                          'Código de la sala: ',
                           style:
                               FlutterFlowTheme.of(context).bodyText1.override(
                                     fontFamily: 'Poppins',
@@ -214,7 +214,7 @@ class _HostPageWidgetState extends State<HostPageWidget> {
                   Padding(
                     padding: EdgeInsetsDirectional.fromSTEB(0, 0, 0, 16),
                     child: Text(
-                      'Share this code with your friends to let them join this session.',
+                      'Comparte este código con tus amigos para que puedan unirse a esta sesión.',
                       style: FlutterFlowTheme.of(context).bodyText1.override(
                             fontFamily: 'Poppins',
                             color: Color(0x7F101213),
@@ -258,7 +258,7 @@ class _HostPageWidgetState extends State<HostPageWidget> {
 
                                   setState(() {});
                                 },
-                                text: 'Join Red team',
+                                text: 'Únete al equipo rojo',
                                 options: FFButtonOptions(
                                   width: 130,
                                   height: 50,
@@ -307,7 +307,7 @@ class _HostPageWidgetState extends State<HostPageWidget> {
 
                                   setState(() {});
                                 },
-                                text: 'Join Blue team',
+                                text: 'Únete al equipo azul',
                                 options: FFButtonOptions(
                                   width: 130,
                                   height: 50,
@@ -368,7 +368,7 @@ class _HostPageWidgetState extends State<HostPageWidget> {
 
                                   setState(() {});
                                 },
-                                text: 'become spy master',
+                                text: 'Conviértete en maestro espía',
                                 options: FFButtonOptions(
                                   width: 130,
                                   height: 30,
@@ -422,7 +422,7 @@ class _HostPageWidgetState extends State<HostPageWidget> {
 
                                   setState(() {});
                                 },
-                                text: 'become spy master',
+                                text: 'Conviértete en maestro espía',
                                 options: FFButtonOptions(
                                   width: 130,
                                   height: 30,
@@ -457,7 +457,7 @@ class _HostPageWidgetState extends State<HostPageWidget> {
                   Padding(
                     padding: EdgeInsetsDirectional.fromSTEB(0, 16, 0, 16),
                     child: Text(
-                      'Blue team',
+                      'Equipo azul',
                       style: FlutterFlowTheme.of(context).bodyText1.override(
                             fontFamily: 'Poppins',
                             color: FlutterFlowTheme.of(context).primaryColor,
@@ -533,7 +533,7 @@ class _HostPageWidgetState extends State<HostPageWidget> {
                   Padding(
                     padding: EdgeInsetsDirectional.fromSTEB(0, 16, 0, 16),
                     child: Text(
-                      'Red team',
+                      'Equipo rojo',
                       style: FlutterFlowTheme.of(context).bodyText1.override(
                             fontFamily: 'Poppins',
                             color: FlutterFlowTheme.of(context).alternate,

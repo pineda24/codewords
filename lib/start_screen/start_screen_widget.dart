@@ -24,7 +24,7 @@ class _StartScreenWidgetState extends State<StartScreenWidget> {
         backgroundColor: Colors.white,
         automaticallyImplyLeading: true,
         title: Text(
-          'Codewords',
+          'CodeUACH',
           style: FlutterFlowTheme.of(context).bodyText1.override(
                 fontFamily: 'Poppins',
                 color: FlutterFlowTheme.of(context).primaryColor,
@@ -43,11 +43,7 @@ class _StartScreenWidgetState extends State<StartScreenWidget> {
           height: double.infinity,
           decoration: BoxDecoration(
             gradient: LinearGradient(
-              colors: [
-                FlutterFlowTheme.of(context).primaryBtnText,
-                FlutterFlowTheme.of(context).primaryColor,
-                Color(0xFF1B366D)
-              ],
+              colors: [Color(0xFFECC9EE), Color(0xFFC9A7EB), Color(0xFF9384D1)],
               stops: [0, 0.8, 1],
               begin: AlignmentDirectional(0, -1),
               end: AlignmentDirectional(0, 1),
@@ -74,7 +70,7 @@ class _StartScreenWidgetState extends State<StartScreenWidget> {
                         },
                       );
                     },
-                    text: 'Create Game',
+                    text: 'Crear juego',
                     options: FFButtonOptions(
                       width: double.infinity,
                       height: 55,
@@ -109,7 +105,7 @@ class _StartScreenWidgetState extends State<StartScreenWidget> {
                       },
                     );
                   },
-                  text: 'Join Game',
+                  text: 'Unete al juego',
                   options: FFButtonOptions(
                     width: double.infinity,
                     height: 55,
@@ -130,7 +126,7 @@ class _StartScreenWidgetState extends State<StartScreenWidget> {
                 ),
                 Spacer(),
                 Image.asset(
-                  'assets/images/spy_logo.png',
+                  'assets/images/logo.png',
                   width: double.infinity,
                   height: 250,
                   fit: BoxFit.contain,
