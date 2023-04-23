@@ -47,7 +47,7 @@ class _RedCelebratePageWidgetState extends State<RedCelebratePageWidget> {
                           size: 90,
                         ),
                         Text(
-                          'WINNER',
+                          'GANADOR',
                           style: FlutterFlowTheme.of(context)
                               .bodyText1
                               .override(
@@ -58,7 +58,7 @@ class _RedCelebratePageWidgetState extends State<RedCelebratePageWidget> {
                               ),
                         ),
                         Text(
-                          'Red Team',
+                          'EQUIPO ROJO',
                           style:
                               FlutterFlowTheme.of(context).bodyText1.override(
                                     fontFamily: 'Poppins',
@@ -88,7 +88,7 @@ class _RedCelebratePageWidgetState extends State<RedCelebratePageWidget> {
                                 (r) => false,
                               );
                             },
-                            text: 'Start New Game',
+                            text: 'Empezar una nueva partida',
                             options: FFButtonOptions(
                               width: 200,
                               height: 50,
