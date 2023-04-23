@@ -1,29 +1,23 @@
 # Codewords
 
-The famous [Codenames](https://en.wikipedia.org/wiki/Codenames_(board_game)) game created using [FlutterFlow](https://flutterflow.io/). The app is currently mobile focused.
+Se trata de un juego de palabras en el que se debe adivinar una palabra a partir de una serie de pistas. El juego se desarrolla en un tablero de **nxn** casillas, en el que cada casilla contiene una letra. El objetivo del juego es adivinar una palabra a partir de una serie de pistas. Las pistas se componen de una **palabra y un número**, con un significado relacionado al de la palabra, mientras que el numero es libre, y puede ser interpretado el tamaño de la palabra.
 
-**Start playing [here](https://app.flutterflow.io/run/Ou9Aw9aXoAI0Qdns5Kdc)!** It's recommended to have at least 6 players (Players: 4-8+).
+## Jugador
 
-![Codewords screens](screenshots/codewords_screens_2_rows.png)
+El jugador cuando sea su turno, debe adivinar la palabra a partir de las pistas que se le han dado. Para ello, debe seleccionar las casillas que contienen las letras de la palabra. Si la palabra es correcta, el jugador ganará otro turno para adivinar, hasta que este se equivoque.
 
-## License
+## Espía
 
-Copyright (c) 2022 Souvik Biswas
+El espía es el jugador que debe dar las pistas. Para ello, debe seleccionar una palabra y un número. El espía debe dar pistas que no sean demasiado obvias, pero que permitan al jugador adivinar la palabra.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+## Instalación
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+Para ejecutar el juego, es necesario tener instalado **Flutter**. Para ello, se puede seguir la guía de instalación de la página oficial de Flutter: https://flutter.dev/docs/get-started/install.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+Una vez se tenga instalado Flutter, se puede ejecutar el juego com un servidor web local, con el comando:
+
+```bash
+flutter run -d web-server --web-port 8080
+```
+
+Por lo que el juego se podrá acceder desde la dirección: http://localhost:8080.
