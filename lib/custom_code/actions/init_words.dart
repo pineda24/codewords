@@ -44,6 +44,14 @@ initWords() {
   'Estrategia',
   'Pruebas',
   'Postmorten',
-    
+  'MOPROSOFT',
+  'UNAM',
+  'Software',
+  'Calidad',
+  'Equipo',
+  'TSP',
+  'PSP',
+  'Normativa',
+  'CMMI'
   ];
 }
