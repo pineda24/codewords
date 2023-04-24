@@ -11,7 +11,7 @@ initWords() {
   FFAppState().words = [
   'agua', 
   'ala', 
-  'alba', 
+  'albondiga', 
   'alegría', 
   'alma',
   'amigo', 
