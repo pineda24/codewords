@@ -63,7 +63,7 @@ class _HostPageWidgetState extends State<HostPageWidget> {
               isStarted: true,
               isBlueGuessing: true,
               isRedGuessing: false,
-              redWordsLeft: 8,
+              redWordsLeft: 9,
               blueWordsLeft: 9,
               isRedWinner: false,
               isBlueWinner: false,
